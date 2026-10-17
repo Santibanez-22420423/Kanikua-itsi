@@ -146,9 +146,9 @@ Por ejemplo:
 http://localhost:3000
 ```
 
-**Importante** EL puerto '3000' es únicamente un ejemplo.
+**Importante** El puerto `3000` es únicamente un ejemplo.
 
-El puerto real dependerá de la configuración establecida en el archivo 'docker-compose.yml' o 'compose.yaml'.
+El puerto real dependerá de la configuración establecida en el archivo `docker-compose.yml` o `compose.yaml`.
 
 ## 6. Detener la página web
 
@@ -250,7 +250,7 @@ Ctrl + C
 
 **Solución:**
 
-1. Abrir el archivo 'docker-compose.yml' o 'compose-yaml'.
+1. Abrir el archivo `docker-compose.yml` o `compose-yaml`.
 2. Localizar la configuración de puertos.
 3. Modificar el puerto publicado si es necesario.
 4. Reiniciar los servicios.
@@ -263,10 +263,10 @@ Ctrl + C
 
 Verificar que la carpeta del proyecto contenga alguno de los siguientes archivos:
 
-- 'docker-compose.yml'
-- 'docker-compose.yaml'
-- 'compose.yml'
-- 'compose.yaml'
+- `docker-compose.yml`
+- `docker-compose.yaml`
+- `compose.yml`
+- `compose.yaml`
 
 Después, ejecutar nuevamente:
 

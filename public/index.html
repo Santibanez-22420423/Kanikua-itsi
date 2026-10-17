@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>KANIKUA ITSI</title>
+
+<link rel='stylesheet' id='twentyfourteen-style-css' href='/style.css' media='all' />
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+        <div class="container">
+			<div class="logo_section">
+				<a href="#"><img src="/kanikua.png" alt="Logo"></a>
+			</div>
+			<div class="nav_section">
+				<div class="nav_top">
+					<div class="nav_top_right">
+						<div class="top_right_left">
+							<ul>
+                                <li><a href="#">El Proyecto</a></li>
+                                <li><a href="#">Problema</a></li>
+                                <li><a href="#">Características</a></li>
+                                <li><a href="#">Sensores</a></li>
+                                <li><a href="#">Datos Históricos</a></li>
+                                <li><a href="#">Contacto</a></li>
+                            </ul>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="nav_bottom">
+					<div class="clear"></div>
+															
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+    </div>
+<div id="main_content">
+	<div class="container_inn">
+		<div class="actualidad_box" style="background-image: url(/inundacion.jpg); background-size: cover;">
+			<div class="actualidad_content">
+				<span>PROYECTO PRINCIPAL</span> 
+			<a href="#" class="img_1">
+                    <h1>Sensores de Alerta para la Prevención de Inundaciones</h1>
+                <p>Prototipo de dispositivo autónomo para la detección temprana de condiciones de riesgo de inundación, que permite una respuesta anticipada (apertura de desagües, activación de bombas) en zonas urbanas y rurales.</p>
+                </a>
+            </div>
+		</div>
+		<div class="clear"></div>
+    
+        <div class="temas_box">
+        <div class="section group">
+	<div class="col span_1_of_3">
+					<span class="cat">El Problema</span>
+					<h2><a href="#">Daños y Pérdidas Agrícolas</a></h2>
+                    <p>La lluvia es necesaria; el problema son sus consecuencias evitables: daños a viviendas y tráfico en zonas urbanas, y pérdida de cultivos. Esto causa una disminución significativa en la producción agrícola, afectando la seguridad alimentaria y provocando pérdidas económicas.</p>
+				</div>
+				<div class="col span_1_of_3">
+					<span class="cat">Innovación</span>
+					<h2><a href="#">Características Clave</a></h2>
+					<p>El sensor cuenta con autonomía energética mediante panel solar y batería para operar varios días sin sol. Tiene autonomía de comunicación local sin internet a través de enlace de radio LaRaWAN para activar bombas y alertas, con instalación sencilla sin obra civil ni cableado.</p> 
+				</div>
+				<div class="col span_1_of_3">
+                    <span class="cat">Acción y Alcance</span>
+                    <h2><a href="#">Respuesta Anticipada</a></h2>
+                    <p>Con umbrales calibrados, clasifica el riesgo y alerta a instituciones como Protección Civil y la SADER mediante la web, activando planes de protocolo de emergencia. Detecta la condición de riesgo en sitio y reduce el tiempo de reacción ante un clima que cada año será más inexacto.</p>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+<!-- Monitoreo de precipitación -->
+<div class="precipitacion_section">
+    <div class="container_inn">
+
+        <div class="precipitacion_header">
+            <span class="cat">MONITOREO METEOROLÓGICO</span>
+            <h3>Precipitación Actual</h3>
+            <p>
+                Consulta las mediciones de lluvia registradas por las
+                estaciones meteorológicas del Servicio Meteorológico Nacional.
+            </p>
+        </div>
+
+        <div class="precipitacion_card">
+            <div class="precipitacion_info">
+                <span class="precipitacion_icon">🌧️</span>
+                <div>
+                    <h2>Datos de precipitación</h2>
+                    <p>Fuente: CONAGUA - Servicio Meteorológico Nacional</p>
+                </div>
+            </div>
+
+            <div class="precipitacion_datos">
+                <div class="precipitacion_variable">
+                    <span>Variable</span>
+                    <strong>Precipitación (mm)</strong>
+                </div>
+
+                <div class="precipitacion_variable">
+                    <span>Actualización</span>
+                    <strong>Consultar fuente oficial</strong>
+                </div>
+            </div>
+
+            <p class="precipitacion_nota">
+                Los valores dependen de la estación meteorológica seleccionada
+                y de la disponibilidad de sus registros.
+            </p>
+
+            <a
+                href="https://smn.conagua.gob.mx/tools/PHP/sivea_v3/div.php"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="precipitacion_boton">
+                Consultar precipitación en tiempo real
+            </a>
+        </div>
+
+    </div>
+</div>
+
+    <div class="quiz_section home_new">
+        <div class="container_inn">
+            <div class="quiz_cont">
+                <a href="#">
+                    <h3>¿Qué busca prevenir y cómo lo hace?</h3>
+                    <p>Funciona mediante la identificación de parámetros irregulares midiendo humedad, nivel del agua y tiempo atmosférico. El microcontrolador aplica umbrales simples y manda una alerta por la red LoRaWAN, que funciona sin internet, a un receptor a kilómetros de distancia. Además, el pequeño panel solar autoalimenta las baterías para que el sensor encargado nunca se quede sin energía.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="recursos_section">
+    <div class="container_inn">
+    <h3>Variables y Sensores Utilizados</h3>
+    <div class="section group">
+				<div class="col span_1_of_3">
+					<a href="#">
+						<div class="text">
+							<h2>Lluvia y Humedad del Suelo</h2>
+							<p>Se utiliza un pluviómetro de balancín para medir la intensidad y el acumulado de lluvia (disparador principal), y un sensor capacitivo/TDR a 2-3 profundidades para saber qué tan cerca está el suelo de saturarse.</p>
+						</div>
+					</a>
+				</div>
+				<div class="col span_1_of_3">
+					<a href="#">
+						<div class="text">
+							<h2>Estabilidad y Movimiento</h2>
+							<p>Se emplea un piezómetro para medir la presión de poro (el mejor indicador de inestabilidad) y herramientas como inclinómetros, extensómetros y GNSS para medir el movimiento de ladera y deformaciones previas a la falla.</p>
+						</div>
+					</a>
+				</div>
+				<div class="col span_1_of_3">
+					<a href="#">
+						<div class="text">
+							<h2>Nivel de Río y Vibraciones</h2>
+							<p>Radares o sensores de ultrasonido miden el nivel del río para detectar bloqueos, crecidas o roturas de presas, mientras que los acelerómetros o geófonos detectan flujos de detritos en curso a través de la vibración.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+    </div>
+    </div>	
+    <div class="extras_section">
+    <div class="container_inn">
+    <div class="section group">
+    <div class="col span_2_of_3">
+    <div class="news">
+    <h3>Datos Históricos (Ciénega de Chapala) y Observaciones</h3>
+	<ul>
+							<li>
+								<div>
+									<h4><a href="#">Límites de precipitación media</a></h4>
+									<p>En el periodo 2020-2025, la precipitación anual media fue de 637.9 mm (o 638 mm), con un coeficiente de variación interanual del 31%. La media mensual registrada en 81 meses es de 55.7 mm[cite: 4].</p>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h4><a href="#">Años extremos y Temporadas de Riesgo</a></h4>
+									<p>El año más húmedo registrado fue 2024 con 936.3 mm (superando la media en 47%), mientras que el más seco fue 2021 con 354.5 mm. Entre el 82% y el 96% de la lluvia se concentró en los meses de junio a septiembre, por lo que el riesgo de inundación se concentra en esa temporada[cite: 5].</p>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h4><a href="#">Desafíos Técnicos de Implementación</a></h4>
+									<p>El despliegue de los nodos puede enfrentar posibles dificultades relacionadas con el ancho de banda, los límites de tiempo de transmisión, la sincronización y las actualizaciones[cite: 4]. Además, el umbral de desborde debe determinarse por cada sitio utilizando datos de nivel específicos[cite: 5].</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+    </div>
+
+                    <div class="col span_1_of_3">
+                        <div class="guias">
+                            <h3>Instituciones de Contacto</h3>
+                            <ul class="listado">
+                                <li><a href="#"><span>Protección Civil</span></a></li>
+                                <li><a href="#"><span>SADER</span></a></li>
+                                <li><a href="#"><span>Sector Agropecuario</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+    </div>
+    </div>
+    </div>
+</div>
+<div id="footer">
+		<div class="footer_bottom">
+			<div class="container_inn">
+				<div class="footer_bottom_cont">
+					<small>© Sensores de Alerta Temprana</small>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+</body>
+</html>

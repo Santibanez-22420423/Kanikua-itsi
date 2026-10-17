@@ -1,2 +1,8 @@
 # Kanikua-itsi
-Plataforma web para el monitoreo de inundaciones y la emisión de alertas tempranas el tiempo real, mediante sensores IoT, comunicación LoRa y soluciones de infraestructura verde.
+
+## Descripción del proyecto
+
+**Kánikua Itsï** es un proyecto tecnológico enfocado en la prevención de inundaciones mediante el monitoreo ambiental, sensores IoT, comunicación LoRa e infraestructura verde.
+
+La plataforma web permite visualizar información del sistema de monitoreo y contribuir a la detección temprana de posibles riesgos de inundación.
+
